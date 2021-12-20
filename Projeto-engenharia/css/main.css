@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ribeye+Marrow&family=Risque&display=swap');
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+header{
+  height: 130px;
+  background-color:#F0E5EB;
+}
+
+.container-alterado{
+  height:100%;
+  align-items: center;
+}
+
+.titulo{
+  font-family: 'Ribeye Marrow', cursive;
+  font-size: 20px;
+  width: 20px;
+  margin-left: 10px;
+  color: #AD3395;
+}
+.blocoCompleto{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.bloco1{
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  width: 40%;
+
+}
+.bloco2 img{
+  width: 50px;
+  margin-left: 25px;
+
+}
+.bloco2{
+  justify-self: flex-end;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-top: 40px;
+}
+.banner{
+  width: 100%;
+  height: calc(100vh - 130px);
+  background: url("../img/imagem-Sessão1.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 -200px;
+  background-size:cover;
+  margin-top: 130px;
+
+}
+.parte1div{
+  display: flex;
+}
+.parte1div img{
+  width: 50%;
+}
+.parte1div p{
+  font-size: 50px;
+  width: 60%;
+  color: #8E8D8D;
+  letter-spacing:5px;
+}
+
+.img-slide{
+  height: 500px;
+  object-fit: cover;
+}
+
+.parte1 h1, .parte2 h1, .parte3-h1, .parte4-h1{
+  font-family: 'Ribeye Marrow', cursive;
+  color: #AD3395;
+  text-align: center;
+  margin: 1em 0;
+}
+
+.parte1 p {
+  font-family: 'Risque', cursive;
+  margin-left: 20px;
+}
+
+.parte2 img {
+  width: 100%;
+}
+
+.parte3 .card, .parte4 .card, .parte5 .card {
+  border: none;
+  text-align: center;
+  font-family: 'Ribeye Marrow', cursive;
+  margin: 20px;
+}
+
+.parte3 .card a {
+  border-radius: 200px;
+}
+
+.parte3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.parte4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parte4 .card a {
+  border-radius: 200px;
+}
+.parte5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parte5 .card a {
+  border-radius: 200px;
+}
+#rodap {
+  background-color: #F0E5EB;
+  color: rgb(75, 75, 75);
+}
+
+.logoft {
+  width: 10px;
+}
+
+#rodap .footer-copyright {
+  background-color: #F0E5EB;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+#rodap .row {
+  margin-bottom: 60px;
+}
+
+#rodap .navbar-brand {
+  margin-top: 45px;
+  height: 65px;
+}
+
+#rodap .footer-copyright p {
+  margin: 10px;
+  color: #333333;
+}
+
+#rodap ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+#rodap h5 {
+  font-size: 18px;
+  color: #333333;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#rodap h2 a {
+  font-size: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+#rodap a {
+  color: #333333;
+  text-decoration: none;
+}
+
+#rodap a:hover,
+#rodap a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+#rodap .social-networks {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 16px;
+}
+
+#rodap .social-networks a {
+  color: #333333;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+#rodap .social-networks a:hover {
+  text-decoration: none;
+}
+
+#rodap .facebook:hover {
+  color: #D416AF;
+}
+
+#rodap .instagram:hover {
+  color:#D416AF ;
+}
+
+#rodap .twitter:hover {
+  color: #D416AF;
+}
+
+#rodap .btn {
+  color: white;
+  background-color: #D416AF;
+  border-radius: 20px;
+  border: none;
+  width: 150px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 750px) {
+  #rodap {
+    text-align: center;
+  }
+}
